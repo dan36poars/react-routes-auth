@@ -2,11 +2,13 @@ import React from 'react';
 
 import GlobalStyled from './style';
 
-export default function App() {
-  return (
+import Routes from './routes';
+
+const App = () => (
     <>
       <GlobalStyled/>
-      <div>Hello World</div>
+      <Routes />
     </>
-  )
-}
+)
+
+export default App;
